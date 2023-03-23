@@ -63,5 +63,5 @@ Another example is using GEE's SimpleCloudScore function to remove cloud to comp
 
 ## Reflection
 
-Learning a complete new tool is always make me exciting! Through this week's learning, I've got a fundamental understanding and basic way of using of GEE. Compared to R, GEE has more potential to help us to take relevant research(after all it is born to do this work XD). One of its best strength is that it already has lots of data archive(a little bit like repositories on Github), which is pretty helpful for the rookies.  
+Learning a complete new tool is always make me exciting! Through this week's learning, I've got a fundamental understanding and basic way of using of GEE. Compared to R, GEE has more potential to help us to take relevant research(after all it is born to do this work XD). One of its best strength is that it already has lots of data archive(a little bit like repositories on Github), which is pretty helpful for the rookies.\
 One of my favorite parts of GEE is that it does streamline the process of analyzing. To be specific, it combine map visualization, dataset and coding altogether, which save us lots of time to switch from different software.
