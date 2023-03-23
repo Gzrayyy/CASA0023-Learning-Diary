@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>CASA0023 Personal Portfolio - 1&nbsp; Week 1 Introduction of remote sensing</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./week2.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./general_img/casa_logo.jpg" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">CASA0023 Personal Portfolio</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/zirui-guo-b8290610b"><i class="bi bi-linkedin" role="img" aria-label="Linkedin">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/Z1ruiGuo"><i class="bi bi-twitter" role="img" aria-label="Twitter">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Gzrayyy/CASA0023-Learning-Diary"><i class="bi bi-github" role="img" aria-label="Source Code">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+                  <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1 Introduction of remote sensing</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week1.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1 Introduction of remote sensing</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2 Sensor device</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week3.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3 Correction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week 4 Policy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week5.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 5 Google Earth Engine</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 6 Classification I</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">1.1</span>  Summary</a>
+  <ul class="collapse">
+  <li><a href="#remote-sensor" id="toc-remote-sensor" class="nav-link" data-scroll-target="#remote-sensor"><span class="toc-section-number">1.1.1</span>  Remote sensor</a></li>
+  <li><a href="#waves" id="toc-waves" class="nav-link" data-scroll-target="#waves"><span class="toc-section-number">1.1.2</span>  Waves</a></li>
+  <li><a href="#data-format" id="toc-data-format" class="nav-link" data-scroll-target="#data-format"><span class="toc-section-number">1.1.3</span>  Data format</a></li>
+  </ul></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="toc-section-number">1.2</span>  Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="toc-section-number">1.3</span>  Reflection</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Gzrayyy/CASA0023-Learning-Diary/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/Gzrayyy/CASA0023-Learning-Diary/edit/main/week1.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-chap1" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1 Introduction of remote sensing</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="summary" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">1.1</span> Summary</h2>
+<div id="fig-mind-1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./mind_img/Week-1.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1.1: Mind map of week 1</figcaption><p></p>
+</figure>
+</div>
+<p>The main content of this week is basic introduction of remote sensing, which gave us basic knowledge and awareness of remote sensing. To be specific, this week gave us the basic concepts of remote sensor devices, electromagnetic waves and data format.</p>
+<section id="remote-sensor" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="remote-sensor"><span class="header-section-number">1.1.1</span> Remote sensor</h3>
+<p>The definition of remote sensing is acquire information from a distance<span class="citation" data-cites="earthsciencedatasystems2019">(<a href="references.html#ref-earthsciencedatasystems2019" role="doc-biblioref">Earth Science Data Systems 2019</a>)</span>. The tools which acquire information are called remote sensor. Sensors can be divided into many categories depending on the different classification criteria. If we classify remote sensing platforms according to their altitude, they can be broadly divided into space remote sensing, aerial remote sensing and ground remote sensing. The devices of space remote sensing include artificial satellites, manned spacecraft, space shuttles and space stations. Aerial remote sensing refers to the observation of the Earth from airborne platforms such as aircraft, spacecraft and balloons. Ground-based remote sensing refers to remote sensing technology systems where the sensors are set on the ground. According to the electromagnetic spectrum used, there are three types of remote sensing: visible, thermal infrared and microwave. In terms of working type, we can classify them into active remote sensing and passive remote sensing<span class="citation" data-cites="huang2010">(<a href="references.html#ref-huang2010" role="doc-biblioref">Huang, Yu, and Huang 2010</a>)</span>.</p>
+<p>Considering that this week we mainly focus about the active sensors and passive sensors, in this case, I will mainly talk about above two sensors.</p>
+<p>The huge difference between these two type of sensors is whether they have energy for illumination. Passive sensors cannot emit anything but detect reflected energy from sun. The power and frequency bands measured by passive sensors are determined by properties of the substance being measured. These frequencies and information cannot be changed nor duplicated in other bands<span class="citation" data-cites="mai2012">(<a href="references.html#ref-mai2012" role="doc-biblioref">Mai 2012</a>)</span>. As for active sensors, they send out signal by themselves and then measured when it is reflected by the surface of earth<span class="citation" data-cites="bhattacharyya">(<a href="references.html#ref-bhattacharyya" role="doc-biblioref">Bhattacharyya, n.d.</a>)</span>.</p>
+<section id="benefits-and-reflections-of-remote-sensor-devices" class="level4" data-number="1.1.1.1">
+<h4 data-number="1.1.1.1" class="anchored" data-anchor-id="benefits-and-reflections-of-remote-sensor-devices"><span class="header-section-number">1.1.1.1</span> Benefits and reflections of remote sensor devices</h4>
+<div id="tbl-ads" class="anchored">
+<table class="table">
+<caption>Table&nbsp;1.1: The advantages and disadvantages of sensor devices</caption>
+<colgroup>
+<col style="width: 22%">
+<col style="width: 31%">
+<col style="width: 22%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Active sensor</th>
+<th></th>
+<th>Passive sensor</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Advantage</strong></td>
+<td><strong>Disadvantage</strong></td>
+<td><strong>Advantage</strong></td>
+<td><strong>Disadvantage</strong></td>
+</tr>
+<tr class="even">
+<td>All weather working</td>
+<td>Require a large amount of power</td>
+<td>Cannot be detected</td>
+<td>Most of them only can work in the day time</td>
+</tr>
+<tr class="odd">
+<td>Send out signal by itself</td>
+<td>High cost</td>
+<td>Low power consumption</td>
+<td>Influence by weather(e.g.&nbsp;cloudy)</td>
+</tr>
+<tr class="even">
+<td>Obtain measurements anytime</td>
+<td>Radar signals contain no spectral characteristics.</td>
+<td>Easy to use for visual interpretation</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Weather, sunlight independent</td>
+<td>Pulse power can be influenced or interfered by other radiation sources</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>See <a href="#tbl-ads">Table&nbsp;<span>1.1</span></a> for the advantages and disadvantages of sensor devices.</p>
+</section>
+</section>
+<section id="waves" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="waves"><span class="header-section-number">1.1.2</span> Waves</h3>
+<p>The energy emitted by the sun and passive sensors is essentially electromagnetic waves. The wavelengths of electromagnetic waves can be classified as infrared, visible or ultraviolet light. We rely on this energy all the time in our lives, from the radio to sending text messages, electromagnetic waves are everywhere<span class="citation" data-cites="nasaofficial">(<a href="references.html#ref-nasaofficial" role="doc-biblioref">NASA Official, n.d.</a>)</span>.</p>
+<section id="scattering" class="level4" data-number="1.1.2.1">
+<h4 data-number="1.1.2.1" class="anchored" data-anchor-id="scattering"><span class="header-section-number">1.1.2.1</span> Scattering</h4>
+<p>The sun, as a full-spectrum source of energy, continuously transmits electromagnetic waves to the earth. Due to the atmosphere, before the solar radiation reaches the ground, some of its energy is absorbed, some are scattered and some are emitted. It is important to note that the atmosphere does not absorb and scatter radiation of different wavelengths to the same extent. In the visible wavelength range, the atmosphere is primarily responsible for scattering effects. The mode of scattering is related to the wavelength of the electromagnetic wave, the diameter of the atmospheric molecules and the size of the aerosol particles. The main types of scattering are Rayleigh scattering, Mie scattering and non-selective scattering. Rayleigh scattering occurs when the diameter of the particles in the atmosphere is much smaller than the wavelength of the electromagnetic wave, and the shorter the wavelength the stronger the scattering, which is why the sky is blue in cloudless weather with good visibility. Mie scattering occurs when the wavelength is similar to the size of the scattering particles and is strongly influenced by the weather. When the size of the particles in the atmosphere is much larger than the wavelength, fog-selective scattering occurs, and clouds are an example of unselective scattering (which is why clouds are white: all visible light is involved in scattering)See <a href="#fig-scattering">Figure&nbsp;<span>1.2</span></a> and for scattering<span class="citation" data-cites="zhan2001">(<a href="references.html#ref-zhan2001" role="doc-biblioref">Zhan 2001</a>)</span>.</p>
+<div id="fig-scattering" class="quarto-layout-panel">
+<figure class="figure">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-sky" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./img/sky.jpg" class="img-fluid figure-img" data-ref-parent="fig-scattering"></p>
+<p></p><figcaption class="figure-caption">(a) Day-time. Source: Zirui Guo</figcaption><p></p>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-twi" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./img/twilight.jpg" class="img-fluid figure-img" data-ref-parent="fig-scattering"></p>
+<p></p><figcaption class="figure-caption">(b) Twilight. Source: Zirui Guo</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1.2: Scattering</figcaption><p></p>
+</figure>
+</div>
+<p>There are other effects in the natural environment, and the images presented need to be corrected for various reasons, see <a href="week3.html"><span>Chapter&nbsp;3</span></a> for more details about correction.</p>
+</section>
+</section>
+<section id="data-format" class="level3" data-number="1.1.3">
+<h3 data-number="1.1.3" class="anchored" data-anchor-id="data-format"><span class="header-section-number">1.1.3</span> Data format</h3>
+<p>The usual form of storage for remote sensing data is a raster. A raster consists of a series of pixels, each of which has the same size and shape. There are four types of resolution to consider for any data set - radiometric, spatial, spectral and temporal<span class="citation" data-cites="earthsciencedatasystems2019">(<a href="references.html#ref-earthsciencedatasystems2019" role="doc-biblioref">Earth Science Data Systems 2019</a>)</span>. The spatial resolution of a raster is the size (in meters) of each image element, which in turn is related to the ground area represented by the pixel<span class="citation" data-cites="wasser">(<a href="references.html#ref-wasser" role="doc-biblioref">Wasser, n.d.</a>)</span>. Temporal resolution is the minimum time interval between two adjacent remote sensing observations in the same area. The size of the time interval depends mainly on the type of sensor device: a large time interval results in a low temporal resolution and vice versa. The spectral resolution is the smallest wavelength interval that the sensor can resolve when receiving the spectrum of the target radiation. The smaller the interval, the higher the resolution. The different spectral resolution of the sensor on the same feature detection effect has a great difference. Radiation resolution refers to the ability of the sensor to distinguish between subtle changes in the radiation energy of a feature, i.e.&nbsp;the sensitivity of the sensor. The higher the radiometric resolution of a sensor, the stronger its ability to detect small changes in the reflected or emitted radiant energy of a feature. This is expressed in the remote sensing image as a quantitative level of radiation per image element.</p>
+</section>
+</section>
+<section id="application" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="application"><span class="header-section-number">1.2</span> Application</h2>
+<p>In general, remote sensing data has a wide range of applications in many fields: pollution monitoring, night light of the city (see <a href="#fig-night">Figure&nbsp;<span>1.3</span></a> for night light of the city), forest fires, disaster monitoring (see <a href="week4.html"><span>Chapter&nbsp;4</span></a> for remote sensing apply in disaster), these data not only help us in our research but also in our daily work.</p>
+<div id="fig-night" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./img/night.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1.3: Night light. Source: <a href="https://earth.google.com/web/@30.76755034,114.10314388,200.45178036a,4865007.61273921d,35y,0h,0t,0r/data=CiQSIhIgMGY3ZTJkYzdlOGExMTFlNjk5MGQ2ZjgxOGQ2OWE2ZTc">Google Earth</a></figcaption><p></p>
+</figure>
+</div>
+<p>Specifically, in the field of ecology, for example, researchers have relied on remote sensing to model biogeochemical cycles and characterise land cover, vegetation biophysical properties, forest structure and fragmentation associated with biodiversity. Changes associated with clearcutting, interfering, tree mortality, acid rain, insect infestation, accidental harvesting, salvage logging, succession and interclass transition rates have been accurately characterized through the accumulation of data over many years<span class="citation" data-cites="cohen2004">(<a href="references.html#ref-cohen2004" role="doc-biblioref">Cohen and Goward 2004</a>)</span>.</p>
+<p>In horticulture, the use of remote sensing to help collect and update information for scientific management plans and to reduce risk and minimize damage by collecting electromagnetic information to obtain accurate, large-scale information about the Earth’s surface and atmosphere has enabled horticultural crops to continue to play a role in increasing land productivity, creating jobs, increasing exports, improving the economic conditions of farmers and entrepreneurs, and providing food and nutrition security<span class="citation" data-cites="usha2013">(<a href="references.html#ref-usha2013" role="doc-biblioref">Usha and Singh 2013</a>)</span>.</p>
+<p>Wildfires are a great danger to entire ecosystems, so understanding the dynamics associated with wildfires, such as risk, spatial distribution and impacts, is important for a clear understanding of their ecological impacts. Based on the inherently low-cost, multi-temporal nature of remote sensing, it has been applied to fire risk mapping, fuel mapping, active fire detection, area burned estimation, and burn severity assessment. It greatly improves the efficiency of the analysis and makes a significant contribution to prevention as well as post-disaster restoration<span class="citation" data-cites="szpakowski2019">(<a href="references.html#ref-szpakowski2019" role="doc-biblioref">Szpakowski and Jensen 2019</a>)</span>.</p>
+<p>Remote sensing is not only used on a large spatial scale but also plays an important role in engineering projects, where the use of LiDAR for building scanning and modelling has resulted in significant time and economic savings (see <a href="week2.html"><span>Chapter&nbsp;2</span></a> for more details about the application of LiDAR).</p>
+</section>
+<section id="reflection" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">1.3</span> Reflection</h2>
+<p>The most important aspect of this week’s content was that it gave us a basic understanding of remote sensing. From the devices used to acquire remote sensing data, to the propagation of electromagnetic waves, to the final data and resolution, these aspects gave us a basic understanding of the whole process of data collection and collation and laid a foundation for the subsequent content.</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-bhattacharyya" class="csl-entry" role="doc-biblioentry">
+Bhattacharyya, Soumalya. n.d. <span>“Remote Sensing: Types, Uses, Advantages and Disadvantages | Analytics Steps.”</span> <a href="https://www.analyticssteps.com/blogs/remote-sensing-types-uses-advantages-and-disadvantages">https://www.analyticssteps.com/blogs/remote-sensing-types-uses-advantages-and-disadvantages</a>.
+</div>
+<div id="ref-cohen2004" class="csl-entry" role="doc-biblioentry">
+Cohen, Warren B., and Samuel N. Goward. 2004. <span>“Landsat’s Role in Ecological Applications of Remote Sensing.”</span> <em>BioScience</em> 54 (6): 535–45. <a href="https://doi.org/10.1641/0006-3568(2004)054[0535:LRIEAO]2.0.CO;2">https://doi.org/10.1641/0006-3568(2004)054[0535:LRIEAO]2.0.CO;2</a>.
+</div>
+<div id="ref-earthsciencedatasystems2019" class="csl-entry" role="doc-biblioentry">
+Earth Science Data Systems, NASA. 2019. <span>“What Is Remote Sensing?”</span> <a href="https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing">https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing</a>.
+</div>
+<div id="ref-huang2010" class="csl-entry" role="doc-biblioentry">
+Huang, Zhengdong, Zhuo Yu, and Jingnan Huang. 2010. <em>Urban Planning and Management.</em> Wuhan University Press.
+</div>
+<div id="ref-mai2012" class="csl-entry" role="doc-biblioentry">
+Mai, Thuy. 2012. <span>“What Are Passive and Active Sensors?”</span> <a href="https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/txt_passive_active.html">https://www.nasa.gov/directorates/heo/scan/communications/outreach/funfacts/txt_passive_active.html</a>.
+</div>
+<div id="ref-nasaofficial" class="csl-entry" role="doc-biblioentry">
+NASA Official. n.d. <span>“Introduction to the Electromagnetic Spectrum | Science Mission Directorate.”</span> <a href="https://science.nasa.gov/ems/01_intro">https://science.nasa.gov/ems/01_intro</a>.
+</div>
+<div id="ref-szpakowski2019" class="csl-entry" role="doc-biblioentry">
+Szpakowski, David M., and Jennifer L. R. Jensen. 2019. <span>“A Review of the Applications of Remote Sensing in Fire Ecology.”</span> <em>Remote Sensing</em> 11 (22): 2638. <a href="https://doi.org/10.3390/rs11222638">https://doi.org/10.3390/rs11222638</a>.
+</div>
+<div id="ref-usha2013" class="csl-entry" role="doc-biblioentry">
+Usha, K., and Bhupinder Singh. 2013. <span>“Potential Applications of Remote Sensing in Horticulture<span></span>A Review.”</span> <em>Scientia Horticulturae</em> 153 (April): 71–83. <a href="https://doi.org/10.1016/j.scienta.2013.01.008">https://doi.org/10.1016/j.scienta.2013.01.008</a>.
+</div>
+<div id="ref-wasser" class="csl-entry" role="doc-biblioentry">
+Wasser, Leah A. n.d. <span>“The Relationship Between Raster Resolution, Spatial Extent &amp; Number of Pixels | NSF NEON | Open Data to Understand Our Ecosystems.”</span> <a href="https://www.neonscience.org/resources/learning-hub/tutorials/raster-res-extent-pixels-r">https://www.neonscience.org/resources/learning-hub/tutorials/raster-res-extent-pixels-r</a>.
+</div>
+<div id="ref-zhan2001" class="csl-entry" role="doc-biblioentry">
+Zhan, Qingming. 2001. <em>城市遥感技术 = Urban Remote Sensing Technology</em>. Wuhan University Press.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } 
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./week2.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2 Sensor device</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.ucl.ac.uk/bartlett/casa/people/dr-andrew-maclachlan">Moudle Lecturer</a>
+  </li>  
+</ul>
+      </div>
+  </div>
+</footer>
+
+
+
+</body></html>

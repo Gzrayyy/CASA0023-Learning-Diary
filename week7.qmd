@@ -1,4 +1,4 @@
-# Week 7 Classification II {#sec-chap7}
+# Week 7 Classification II {#sec-chap6}
 
 ## Summary
 
@@ -30,7 +30,7 @@ $$(\frac{TP}{TP+FP})$$
 
 $$(\frac{TP+TN}{TP+FP+FN+TN})$$
 
-![Source: [Barsi et al. 2018 Accuracy Dimensions in Remote Sensing](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-3/61/2018/isprs-archives-XLII-3-61-2018.pdf)](./img/accu.png){#fig-accu}
+![Source: [Barsi et al. 2018 Accuracy Dimensions in Remote Sensing](https://ui.adsabs.harvard.edu/abs/2018ISPAr42.3...61B/abstract)](./img/accu.png){#fig-accu}
 
 -   Kappa coefficient: used for consistency testing and can also be used to measure classification accuracy
 
