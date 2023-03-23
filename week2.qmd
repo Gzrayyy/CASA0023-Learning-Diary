@@ -1,0 +1,9 @@
+# Week 2 Sensor device {#sec-chap2}
+
+This week I select LiDAR to describe. Here is The [link](https://gzrayyy.github.io/CASA0023-Slide/). And it is also possible to browse directly on the following pages
+
+```{r, echo = FALSE, out.width='40%'}
+xaringanExtra::embed_xaringan(
+  url = "https://gzrayyy.github.io/CASA0023-Slide/",
+  ratio = "16:9")
+```

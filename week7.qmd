@@ -1,0 +1,66 @@
+# Week 7 Classification II {#sec-chap7}
+
+## Summary
+
+![Mind map of week 7](./mind_img/Week-7.jpg){#fig-mind7}
+
+This week we continued the content we learned last week @sec-chap6 , but go "a little bit" further (yeah, just "a little" for sure)
+
+![Under control for sure](./img/meme.jpg){width="600"}
+
+Alright back to the topic, let's start from pre-classified data, right now there are lots of institutes providing pre-classified data, which benefit us quite a lot. But we still need to figure out whether use them or classified by ourselves.
+
+### OBIA
+
+Compared to traditional image classification which is based on pixel. OBIA segments an image grouping pixels together into vectors rather than per-pixel[@gisgeography2014]. This way of classification not only has obvious advantage but also it can by applied to medium and low resolution as well.
+
+### Accuracy
+
+Accuracy is a key factor to evaluate of our model is reliable or not. In remote sensing we usually care about the following indicators:
+
+-   PA Producer accuracy
+
+$$(\frac{TP}{TP+FN})$$
+
+-   UA User's accuracy
+
+$$(\frac{TP}{TP+FP})$$
+
+-   OA Overall accuracy
+
+$$(\frac{TP+TN}{TP+FP+FN+TN})$$
+
+![Source: [Barsi et al. 2018 Accuracy Dimensions in Remote Sensing](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-3/61/2018/isprs-archives-XLII-3-61-2018.pdf)](./img/accu.png){#fig-accu}
+
+-   Kappa coefficient: used for consistency testing and can also be used to measure classification accuracy
+
+$$k = \frac{p_0-p_e}{1-p_e}$$
+
+### Beyond remote sensing
+
+#### F1 score
+
+Considering that we cannot own high recall and high precision at the same time. In this case, we introduce a new indicator F1 score which combine above two indicators altogether.
+
+$$F1 = \frac{TP}{TP+\frac{1}{2}*(FP+FN)}$$ However F1 score has its own issue as well. To be specific, there is no TN in the equation.
+
+#### ROC Curve
+
+ROC curve also known as sensitivity curve. The reason for this name is that the points on the curve reflect the same sensibility, and they are all responses to the same signaling stimulus, but the result of several different criteria.\
+So why we use ROC curve? Because ROC cruve has a good characteristic: the ROC curve can be kept constant when the distribution of positive and negative samples in the test set changes. In real scenario, class imbalance often occurs, i.e., there are many more negative samples than positive samples (or vice versa), and the distribution of positive and negative samples in the test data may change over time. See @fig-compa for detail of ROC and Precision-Recall curve(a, c are ROC curves, b, d are Precision-Recall curves).
+
+![Comparison between ROC curve and Precision-Recall curve. Source: [CSDN](https://blog.csdn.net/m0_48520385/article/details/118636338?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167956268116800188548524%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=167956268116800188548524&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-118636338-null-null.142%5Ev76%5Econtrol,201%5Ev4%5Eadd_ask,239%5Ev2%5Einsert_chatgpt&utm_term=roc&spm=1018.2226.3001.4187)](./img/compar1.jpg){#fig-compa}
+
+#### Spatial cross validation
+
+Spatial cross validation is used to assess whether there is overfitting when data is autocorrelated.
+
+## Application
+
+Considering that compared to pixel-based approaches, OBIA provide some vital benefits for example: in addition to the spectral values of the input image layer, the shape, texture and associated background variables at the object level can also be incorporated into the classification[@blaschke2001]. Reduce noise and enhance classification accuracy.
+
+Recently OBIA has been widely applied on the study of wetland. By using OBIA, it can alleviate wetland's local spatial heterogeneity, especially with high resolution data. Another contribution of OBIA is that it can facilitate the approach of hierarchy to detection and classification the component of wetland[@dronova2015].
+
+## Reflection
+
+This week is a little bit complicated to understand I have to say. But after finishing reviewing slides and writing diary, I can combine what I've learned over these weeks altogether to form a framework. In the coming weeks, I think I need to spend more time on practical, which can enhance my understanding of the module rather than just understand the concept.
