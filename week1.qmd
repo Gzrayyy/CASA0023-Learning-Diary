@@ -1,10 +1,10 @@
-# Week 1 Introduction of remote sensing
+# Week 1 Introduction of remote sensing {#sec-chap1}
 
 ## Summary
 
 ![Mind map of week 1](./mind_img/Week-1.jpg){#fig-mind-1}
 
-The main content of this week is basic introduction of remote sensing, which gave us basic knowledge and awareness of remote sensing. To be specific, this week gave us the basic concepts of remote sensor devices, electromagentic waves and data format.
+The main content of this week is basic introduction of remote sensing, which gave us basic knowledge and awareness of remote sensing. To be specific, this week gave us the basic concepts of remote sensor devices, electromagnetic waves and data format.
 
 ### Remote sensor
 
@@ -17,7 +17,7 @@ The huge difference between these two type of sensors is whether they have energ
 #### Benefits and reflections of remote sensor devices
 
 | Active sensor                 |                                                                        | Passive sensor                        |                                            |
-|-------------------------------|------------------------------------------------------------------------|---------------------------------------|--------------------------------------------|
+|-----------------|-----------------------|-----------------|-----------------|
 | **Advantage**                 | **Disadvantage**                                                       | **Advantage**                         | **Disadvantage**                           |
 | All weather working           | Require a large amount of power                                        | Cannot be detected                    | Most of them only can work in the day time |
 | Send out signal by itself     | High cost                                                              | Low power consumption                 | Influence by weather(e.g. cloudy)          |
@@ -48,7 +48,7 @@ There are other effects in the natural environment, and the images presented nee
 
 ### Data format
 
-The usual form of storage for remote sensing data is a raster. A raster consists of a series of pixels, each of which has the same size and shape. There are four types of resolution to consider for any data set - radiometric, spatial, spectral and temporal [@earthsciencedatasystems2019]. The spatial resolution of a raster is the size (in metres) of each image element, which in turn is related to the ground area represented by the pixel[@wasser]. Temporal resolution is the minimum time interval between two adjacent remote sensing observations in the same area. The size of the time interval depends mainly on the type of sensor device: a large time interval results in a low temporal resolution and vice versa. The spectral resolution is the smallest wavelength interval that the sensor can resolve when receiving the spectrum of the target radiation. The smaller the interval, the higher the resolution. The different spectral resolution of the sensor on the same feature detection effect has a great difference. Radiation resolution refers to the ability of the sensor to distinguish between subtle changes in the radiation energy of a feature, i.e. the sensitivity of the sensor. The higher the radiometric resolution of a sensor, the stronger its ability to detect small changes in the reflected or emitted radiant energy of a feature. This is expressed in the remote sensing image as a quantitative level of radiation per image element.
+The usual form of storage for remote sensing data is a raster. A raster consists of a series of pixels, each of which has the same size and shape. There are four types of resolution to consider for any data set - radiometric, spatial, spectral and temporal[@earthsciencedatasystems2019]. The spatial resolution of a raster is the size (in meters) of each image element, which in turn is related to the ground area represented by the pixel[@wasser]. Temporal resolution is the minimum time interval between two adjacent remote sensing observations in the same area. The size of the time interval depends mainly on the type of sensor device: a large time interval results in a low temporal resolution and vice versa. The spectral resolution is the smallest wavelength interval that the sensor can resolve when receiving the spectrum of the target radiation. The smaller the interval, the higher the resolution. The different spectral resolution of the sensor on the same feature detection effect has a great difference. Radiation resolution refers to the ability of the sensor to distinguish between subtle changes in the radiation energy of a feature, i.e. the sensitivity of the sensor. The higher the radiometric resolution of a sensor, the stronger its ability to detect small changes in the reflected or emitted radiant energy of a feature. This is expressed in the remote sensing image as a quantitative level of radiation per image element.
 
 ## Application
 
@@ -56,11 +56,11 @@ In general, remote sensing data has a wide range of applications in many fields:
 
 ![Night light. Source: [Google Earth](https://earth.google.com/web/@30.76755034,114.10314388,200.45178036a,4865007.61273921d,35y,0h,0t,0r/data=CiQSIhIgMGY3ZTJkYzdlOGExMTFlNjk5MGQ2ZjgxOGQ2OWE2ZTc)](./img/night.png){#fig-night}
 
-Specifically, in the field of ecology, for example, researchers have relied on remote sensing to model biogeochemical cycles and characterise land cover, vegetation biophysical properties, forest structure and fragmentation associated with biodiversity. Changes associated with clearcutting, interfering, tree mortality, acid rain, insect infestation, accidental harvesting, salvage logging, succession and interclass transition rates have been accurately characterised through the accumulation of data over many years[@cohen2004].
+Specifically, in the field of ecology, for example, researchers have relied on remote sensing to model biogeochemical cycles and characterise land cover, vegetation biophysical properties, forest structure and fragmentation associated with biodiversity. Changes associated with clearcutting, interfering, tree mortality, acid rain, insect infestation, accidental harvesting, salvage logging, succession and interclass transition rates have been accurately characterized through the accumulation of data over many years[@cohen2004].
 
-In horticulture, the use of remote sensing to help collect and update information for scientific management plans and to reduce risk and minimise damage by collecting electromagnetic information to obtain accurate, large-scale information about the Earth's surface and atmosphere has enabled horticultural crops to continue to play a role in increasing land productivity, creating jobs, increasing exports, improving the economic conditions of farmers and entrepreneurs, and providing food and nutrition security[@usha2013].
+In horticulture, the use of remote sensing to help collect and update information for scientific management plans and to reduce risk and minimize damage by collecting electromagnetic information to obtain accurate, large-scale information about the Earth's surface and atmosphere has enabled horticultural crops to continue to play a role in increasing land productivity, creating jobs, increasing exports, improving the economic conditions of farmers and entrepreneurs, and providing food and nutrition security[@usha2013].
 
-Wildfires are a great danger to entire ecosystems, so understanding the dynamics associated with wildfires, such as risk, spatial distribution and impacts, is important for a clear understanding of their ecological impacts. Based on the inherently low-cost, multi-temporal nature of remote sensing, it has been applied to fire risk mapping, fuel mapping, active fire detection, area burned estimation, and burn severity assessment. It greatly improves the efficiency of the analysis and makes a significant contribution to prevention as well as post-disaster restoration [@szpakowski2019].
+Wildfires are a great danger to entire ecosystems, so understanding the dynamics associated with wildfires, such as risk, spatial distribution and impacts, is important for a clear understanding of their ecological impacts. Based on the inherently low-cost, multi-temporal nature of remote sensing, it has been applied to fire risk mapping, fuel mapping, active fire detection, area burned estimation, and burn severity assessment. It greatly improves the efficiency of the analysis and makes a significant contribution to prevention as well as post-disaster restoration[@szpakowski2019].
 
 Remote sensing is not only used on a large spatial scale but also plays an important role in engineering projects, where the use of LiDAR for building scanning and modelling has resulted in significant time and economic savings (see @sec-chap2 for more details about the application of LiDAR).
 
