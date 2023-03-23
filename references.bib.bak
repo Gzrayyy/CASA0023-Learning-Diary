@@ -52,10 +52,10 @@
 	langid = {en}
 }
 
-@Misc{nasaofficial,
-  author = {NASA Official,},
-  title  = {Introduction to the Electromagnetic Spectrum | Science Mission Directorate},
-  url    = {https://science.nasa.gov/ems/01_intro},
+@misc{nasaofficial,
+	title = {Introduction to the Electromagnetic Spectrum | Science Mission Directorate},
+	author = {NASA Official, },
+	url = {https://science.nasa.gov/ems/01_intro}
 }
 
 @book{zhan2001,
@@ -136,4 +136,10 @@ Publisher: Multidisciplinary Digital Publishing Institute},
 	url = {https://blog.csdn.net/Chaolei3/article/details/79670495}
 }
 
-@Comment{jabref-meta: databaseType:bibtex;}
+@book{zhan2001a,
+	title = {城市遥感技术 = Urban Remote Sensing Technology},
+	author = {Zhan, Qingming},
+	year = {2001},
+	date = {2001},
+	publisher = {Wuhan University Press}
+}
