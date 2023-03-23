@@ -1,23 +1,60 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "CASA0023-Learning-Diary"
-  author: "Jane Doe"
-  date: "2023/3/23"
+  title: "CASA0023 Personal Portfolio"
+  author: "Zirui Guo"
+  navbar: 
+    logo: general_img/casa_logo.jpg
+    collapse: true
+    collapse-below: lg
+    background: light
+    #reader-mode: true
+    search: true
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/zirui-guo-b8290610b
+        aria-label: Linkedin
+      - icon: twitter
+        href: https://twitter.com/Z1ruiGuo
+        aria-label: Twitter
+  sidebar:
+    title: "CASA0023"
+    style: floating
+    reader-mode: true
+  repo-url: https://github.com/Gzrayyy/CASA0023-Learning-Diary
+  repo-actions: [issue, edit]
+  crossref:
+    chapters: true
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - week1.qmd
+    - week2.qmd
+    - week3.qmd
+    - week4.qmd
+    - week5.qmd
+    - week6.qmd
+    - week7.qmd
     - references.qmd
+    
+  reader-mode: true
+  page-footer:
+    center:
+      - text: "Moudle Lecturer"
+        href: https://www.ucl.ac.uk/bartlett/casa/people/dr-andrew-maclachlan
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: [lumen, flatly]
+      dark: [lumen,darkly]
+    code-link: true
+  
   pdf:
-    documentclass: scrreprt
+    documentclass: scrbook
 
 editor: visual
 
