@@ -38,7 +38,7 @@ It is a quite good attempt, especially the project doesn't have high demand of l
 Vertical forest. Source: [Stefano Boeri Architect](https://www.stefanoboeriarchitetti.net/en/project/vertical-forest/)
 :::
 
-Former U.S. Secretary of Energy Steven Chu came up with some suggestion as well. In his opinion, it would be useful to addressing global warming and high temperature by painting rooftop and cars. White roofs can reduce a building's electricity bill by 10% to 20%, says the Department of Energy[@chusays]. But this project doesn't get to the root of the problem, i.e., it doesn't systematically reduce air temperature.
+Former U.S. Secretary of Energy Steven Chu came up with some suggestion as well. In his opinion, it would be useful to addressing global warming and high temperature by painting rooftop and cars. White roofs can reduce a building's electricity bill by 10% to 20%, says the Department of Energy[@hargreaves2009]. But this project doesn't get to the root of the problem, i.e., it doesn't systematically reduce air temperature.
 
 ## Reflection
 
