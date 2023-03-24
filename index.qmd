@@ -10,7 +10,9 @@ Hi there, this is Zirui Guo from China!
 
 I got a bachelor degree in Civil Engineering at Xi'an University of Architecture and Technology [School of Civil Engineering](https://www.xauat.edu.cn/en/02yxsz/yxsz1.html), and got my first master degree in Architectural and Urban Design at The University of Edinburgh [ESALA](https://www.eca.ed.ac.uk/edinburgh-school-architecture-and-landscape-architecture-esala). I am currently studying Urban Spatial Science at UCL [CASA](https://www.ucl.ac.uk/bartlett/casa/bartlett-centre-advanced-spatial-analysis).
 
-As you can see, I study three very different programs, which bring me different way of thinking and experience.
+As you can see, I study three very different programs(some of my friends say I'm creazy), which bring me different way of thinking and experience.
+
+I always have a clear goal in mind when I change my major
 
 ```{r, echo = FALSE, out.width='40%'}
 xaringanExtra::embed_xaringan(
