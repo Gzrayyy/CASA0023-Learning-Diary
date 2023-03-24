@@ -10,6 +10,12 @@ Hi there, this is Zirui Guo from China!
 
 I got a bachelor degree in Civil Engineering at Xi'an University of Architecture and Technology [School of Civil Engineering](https://www.xauat.edu.cn/en/02yxsz/yxsz1.html), and got my first master degree in Architectural and Urban Design at The University of Edinburgh [ESALA](https://www.eca.ed.ac.uk/edinburgh-school-architecture-and-landscape-architecture-esala). I am currently studying Urban Spatial Science at UCL [CASA](https://www.ucl.ac.uk/bartlett/casa/bartlett-centre-advanced-spatial-analysis).
 
+As you can see, I studied three very different majors(some of my friends said I'm creazy XD), which bring me different way of thinking and experience and benefit me quite a lot.
+
+I always have a clear goal or reason in mind whenever I change my major. The reason why I decided to study architecture is that I want to get to understand the city by designing architecture. During the process of taking the architecture program in Edinburgh, I feel that it is not enough to get to know the city through the perspective of qualitative. Then I decided to come to CASA aiming to master the methodology of quantitative and interpret cities with data.
+
+I worked as a junior architect in a design institute for one year after my undergraduate degree, during which time I worked on architectural design.
+
 ![Design project at ESALA. Source: Zirui Guo](./img/gzray.jpg){#fig-ed}
 
 In my free time, I'd like to play boxing, making dessert and playing guitar.

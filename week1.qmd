@@ -17,7 +17,7 @@ The huge difference between these two type of sensors is whether they have energ
 #### Benefits and reflections of remote sensor devices
 
 | Active sensor                 |                                                                        | Passive sensor                        |                                            |
-|-----------------|-----------------------|-----------------|-----------------|
+|-----------------|---------------------|-----------------|-----------------|
 | **Advantage**                 | **Disadvantage**                                                       | **Advantage**                         | **Disadvantage**                           |
 | All weather working           | Require a large amount of power                                        | Cannot be detected                    | Most of them only can work in the day time |
 | Send out signal by itself     | High cost                                                              | Low power consumption                 | Influence by weather(e.g. cloudy)          |
@@ -66,4 +66,4 @@ Remote sensing is not only used on a large spatial scale but also plays an impor
 
 ## Reflection
 
-The most important aspect of this week's content was that it gave us a basic understanding of remote sensing. From the devices used to acquire remote sensing data, to the propagation of electromagnetic waves, to the final data and resolution, these aspects gave us a basic understanding of the whole process of data collection and collation and laid a foundation for the subsequent content.
+The most important aspect of this week's content was that it gave us a basic understanding of remote sensing. From the devices used to acquire remote sensing data, to the propagation of electromagnetic waves, to the final data and resolution, these aspects gave us a basic understanding of the whole process of data collection and collation and laid a foundation for the subsequent content. The most useful part for me of the week is practical. By taking practical that Andy provided I got fully understanding of bands.
