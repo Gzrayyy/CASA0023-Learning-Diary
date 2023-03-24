@@ -16,7 +16,7 @@ I always have a clear goal or reason in mind whenever I change my major. The rea
 
 I worked as a junior architect in a design institute for one year after my undergraduate degree, during which time I worked on architectural design.
 
-![Project designed in the University of Edinburgh. Source: Zirui Guo](./img/gzray.jpg){#fig-ed}
+![Project designed at ESALA. Source: Zirui Guo](./img/gzray.jpg){#fig-ed}
 
 In my free time, I'd like to play boxing, making dessert and playing guitar.
 Here is a video of me playing the guitar, enjoy XD!
